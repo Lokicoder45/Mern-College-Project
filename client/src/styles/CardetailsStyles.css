@@ -1,0 +1,50 @@
+.car-details {
+  margin-top: 100px !important;
+}
+
+.car-details-info {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.car-details-info h6 {
+  margin-bottom: 20px !important;
+}
+
+.similar-cars .card {
+  background-color: rgba(128, 128, 128, 0.097);
+  width: 18rem;
+}
+
+.similar-cars .card-name-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.similar-cars .card-price {
+  color: green;
+  font-weight: bold;
+}
+.similar-cars button {
+  border-radius: 0;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.similar-cars .card-text {
+  color: rgb(90, 89, 89);
+}
+
+.similar-cars .card img:hover {
+  transform: scale(0.9);
+}
+
+.similar-cars .card-img-top {
+  height: 300px !important;
+}
